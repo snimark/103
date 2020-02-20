@@ -3,8 +3,8 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    run: "103"
-  name: "103"
+    run: "snimark/103"
+  name: "onezerothree-0"
   namespace: snimark
 spec:
   replicas: 1
@@ -16,10 +16,10 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        run: "103"
+        run: "snimark/103"
     spec:
       containers:
       - image: snimark/103
-        name: "103"
+        name: "snimark/103"
         resources: {}
 status: {}
