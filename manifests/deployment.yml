@@ -10,7 +10,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      run: "103"
+      run: "snimark/103"
   strategy: {}
   template:
     metadata:
