@@ -5,7 +5,7 @@ metadata:
   labels:
     run: "103"
   name: "103"
-  namespace: mcgonagle
+  namespace: snimark
 spec:
   replicas: 1
   selector:
@@ -19,7 +19,7 @@ spec:
         run: "103"
     spec:
       containers:
-      - image: mcgonagle/103
+      - image: snimark/103
         name: "103"
         resources: {}
 status: {}

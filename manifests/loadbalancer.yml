@@ -4,8 +4,8 @@ metadata:
   creationTimestamp: null
   labels:
     run: "103"
-  name: hundredthree-0
-  namespace: mcgonagle
+  name: onezerothree-0
+  namespace: snimark
 spec:
   ports:
   - port: 9000
