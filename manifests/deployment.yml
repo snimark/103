@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - image: snimark/103
-        name: "snimark/103"
+        name: "103"
         resources: {}
 status: {}
