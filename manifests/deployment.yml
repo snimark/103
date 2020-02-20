@@ -3,20 +3,20 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    run: "snimark/103"
+    run: "103"
   name: "onezerothree-0"
   namespace: snimark
 spec:
   replicas: 1
   selector:
     matchLabels:
-      run: "snimark/103"
+      run: "103"
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        run: "snimark/103"
+        run: "103"
     spec:
       containers:
       - image: snimark/103

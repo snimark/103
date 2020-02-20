@@ -3,7 +3,7 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    run: "snimark/103"
+    run: "103"
   name: "onezerothree-0"
   namespace: snimark
 spec:
